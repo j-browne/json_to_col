@@ -1,0 +1,10 @@
+[package]
+name = "json_to_col"
+version = "0.1.0"
+authors = ["Justin Browne <jebdude89@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+structopt = "*"
